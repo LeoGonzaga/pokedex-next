@@ -1,0 +1,42 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+.pokeball {
+  width: 200px;
+}
+
+.button {
+  padding: 15px 40px;
+  min-width: 300px;
+  margin-top: 40px;
+  color: #fff;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.button:hover {
+  color: red;
+  background-color: #fff;
+  border-color: red;
+}

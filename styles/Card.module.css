@@ -1,0 +1,23 @@
+.container {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #fff;
+}
+
+.container:hover {
+  background-color: #ccc;
+  opacity: 0.5;
+}
+
+.img {
+  height: 200px;
+}
